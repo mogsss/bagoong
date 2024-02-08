@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 body {
     background: linear-gradient(to right, #78529c, #FF1493, #FF0000);
@@ -22,10 +22,11 @@ header {
 .container {
     background-color: #cd3c5e;
     margin: 5% auto;
-    padding: 20px;
+    padding: 7%;
     border-radius: 10px;
     width: 80%;
     max-width: 400px;
+    min-width: 0;
     text-align: center;
    
 }
@@ -58,6 +59,7 @@ header {
     text-decoration: burlywood;
 }
 * {
-margin:0;
-padding:0;
-}
+    margin:1px;
+    padding:0;
+    font-family: verdana ;
+    }
