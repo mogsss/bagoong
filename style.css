@@ -14,6 +14,7 @@ color:white
 }
 
 header {
+    margin-top: 20px;
     text-align: center;
     padding: 0px 0;
     color: #fff;
@@ -58,6 +59,6 @@ header {
     text-decoration: burlywood;
 }
 * {
-margin:0%;
-padding:0%;
+margin:0;
+padding:0;
 }
