@@ -6,13 +6,20 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-.cont {
+.container-1 {
 margin: 0% ;
+padding-left: 0%;
 background: #971871;
 text-align: center;
-color:white
+color:white;
+display: flex;
+justify-content: space-between;
 }
-
+.container:hover {
+    transition: all 1s ease-in-out;
+    border-radius: 100%;
+    background-color: #412e2e;
+}
 header {
     text-align: center;
     padding: 0px 0;
@@ -30,6 +37,7 @@ header {
     text-align: center;
    
 }
+
 
 .user-textbox, .password-textbox, .submit-btn, .sign-up-btn {
     width: 100%;
